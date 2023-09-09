@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftbar{
+    position: absolute;
+    background-color:rgb(183, 183, 182);
+    height: 104vh;
+    transition: transform 0.3s ease-in;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.leftbar nav{
+    padding: 30px 50px;
+}
+.leftbar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0px;
+
+    
+}
+.leftbar nav li a{
+    text-decoration: none;
+    color: rgb(54, 50, 50);
+    
+    
+}
+
+.main{
+    height: 100vh;
+    width: 150vw;
+}
+.container{
+ display: flex;
+ background-color: rgb(247, 247, 243);
+}
+.maininfo{
+background-color: rgb(247, 247, 243);
+height: 50vh;
+width: 80vw;
+margin: 146px auto;
+display: flex;
+justify-content: space-around;
+
+}
+.devinfo{
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hello{
+    font-size: 70px;
+    font-size: 3.5em;
+    color: rgb(42, 52, 52);
+    font-family:'Times New Roman', Times, serif;
+}
+.name{
+font-size: 3.5em;
+font-style:inherit;
+font-weight: bold;
+}
+.about{
+font-size: 2.5em;
+font-style: italic;
+color: rgb(42, 52, 52);
+font-family:'Times New Roman', Times, serif;
+}
+.moreabout{
+    margin-top: 22px;
+    font-size: 2.4em;
+}
+.btn{
+    margin-top: 40px;
+    font-size: 18px;
+}
+.btn button {
+    padding: 8px 16px;
+    border-radius: 30px;
+    color: blanchedalmond;
+    background-color: rgb(87, 87, 132);
+    font-weight: bold;
+    font-size: 2em;
+    margin: 4px 4px;
+    cursor: pointer;
+
+
+}
+/*font-size: 20px;
+    margin-right: 50em;
+    width: 10vw;
+    padding: 4px 20px;
+    border-radius: 24px;
+    background-color: rgb(125, 20, 223);
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+.btns button{
+    padding: 10px;
+    border-radius: 30px;
+    width: 10vw;
+    color: blanchedalmond;
+    background-color: rgb(170, 97, 239);
+    font-weight: bold;
+    font-size: 2em;
+    
+    margin: 0 4px;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+
+
+.btn button:hover{
+    background-color: bisque;
+    color: dodgerblue;
+    
+}
+.pic img{
+    height: 50vh;
+    width: 30vw;
+    border-color: rgb(247, 247, 243);
+    border-radius: 5000px;
+    padding-right: 6px;
+    
+    
+}
+
+.contactform{
+    padding: 0px 16px;
+
+    margin: 70px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.contactform h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   /* padding-top: 20px;*/
+
+    
+}
+.contactform form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.contactform form div input{
+   /* width: 26vw;*/
+    border-radius: 6px;
+    margin: 8px 0px 0px 0px;
+    padding: 5px;
+
+}
+.contactform form{
+    
+     margin: 0px 30px;
+}
+
+
+#emailHelp{
+    font-size: 13px;
+    color: rgb(2, 2, 37);
+    margin: 0 6px;
+    padding: 5px 0px 0px 0px;
+}
+#form-check{
+    flex-direction:row;
+
+}
+#form-check input{
+    width: 32px;
+    margin: 5px 0;
+
+
+}
+.blogitem{
+    margin: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloginfo{
+    margin: 70px 100px;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+
+}
+.p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4px;
+
+
+}
+.blogbtn{
+    font-size: 18px;
+    margin-top: 14px;
+    margin-right: 50em;
+    padding: 12px 20px;
+    border-radius: 24px;
+    color: antiquewhite;
+    background-color: rgb(125, 20, 223);
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.intro{
+    
+     margin: 100px 400px;
+     justify-content: center;
+}
+.intro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px;
+    padding-left: 10px;
+   
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+    padding-left: 10px;
+    
+}
+.skillcont{
+    padding: 12px;
+    
+
+}
+.skillitem{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-weight: 900;
+}
+.skill{
+    width: 270px;
+    height: 8px;
+    background-color: rgb(240, 12, 12);
+    border: 2px solid rgb(22, 21, 21);
+    border-radius: 8px;
+    
+
+}
+
+.gfg {
+    display: flex;
+    justify-content: center;
+    margin: 50px 500px;
+    position: relative;
+    
+}
+
+/*This CSS code is defining the styles for a container that holds text*/
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 1rem;
+    top: 1rem;
+    color: brown;
+    padding: 1rem 2rem;
+}
+.hundred{
+    width: 270px;
+}
+.fifty{
+    width: 150px;
+}
+.t5{
+    width: 100px;
+}
+.sixty{
+    width: 180px;
+}
+.seventy{
+    width: 200px;
+}
+.leftbargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hambrg{
+     position: absolute;
+     cursor: pointer;
+     top: 12px;
+     left: 12px;
+}
+.ham{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 130px;
+    margin-top: 1px;
+}
+.resume-img{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width:1615px){
+    .leftbar{
+        background-color:rgb(224, 226, 184);
+    }
+    .main{
+        background-color: rgb(238, 218, 192);
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 8px;
+    }
+    .btns{
+        font-size: 8px;
+    }
+    .pic{
+        display: none;
+    
+    }
+    .intro{
+        margin: 100px 300px;
+    }
+    .bloginfo,.contactform{
+        margin: 50px 40px;
+    }
+    
+}
